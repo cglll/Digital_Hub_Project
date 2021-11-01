@@ -18,18 +18,23 @@ La oferta de productos es de temporada y la recopilación de pedidos se realiza 
 
 Sitios de referencia 
 1.- https://www.economiasolidaria.org/reas-red-de-redes/
+
 Se trata de una red que se enfoca en el ambiente y apoya la economia local de manera estatal 
 
 2.- https://dilmun.mx/collections/son-de-miel
+
 La estructura de su sitio busca realizar ventas de productos de miel de manera local 
 
 3.- http://productoresplanetario.es/archivos/tag/productos-locales
+
 promueven la venta de productos alimenticios artesanales, ecologicos y cercanos a los clientes 
 
 4.- https://cooltiva.mx/
+
 venta de productos locales, frescos y de temporada, permiten que productores utilicen su plataforma para vender sus productos
 
 5.- https://www.tablondeanuncios.com/mercado-local/
+
 tablos de anuncios permite que se realice un mercado local de productos naturista 
 
 
