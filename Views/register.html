@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos Locales</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Public/css/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <img id="logo" width=50%; src="/Public/img/logo.png"">
+            </div>
+        <nav id="navbar">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Nosotros</a></li>
+                <li><a href="">Soy productor</a></li>
+                <li><a href="">Quiero comprar</a></li>
+                <li><a href="">Contacto</a></li>
+            </ul>
+        </nav>
+        </div>
+        <div class="burger-menu">
+            <i class="fas fa-bars"></i>
+        </div><br>
+    </header>
+    <img width=100% height="300px" src="https://i.pinimg.com/originals/cf/a3/72/cfa3728cedde0decc1a9df988eaa4851.jpg">
+    <main>
+        <form action="/" method="POST">
+            <div>
+                <input type="text" name="nombre" placeholder="nombre y apellido">
+            </div>
+            <br>
+            <div>
+                <input type="text" name="nUsuario" placeholder="Nombre de usuario">
+            </div>
+            <br>
+            <div>
+                <input type="text" name="email" placeholder="E-mail">
+            </div>
+            <br>
+            <div>
+                <label>Fecha de nacimiento:</label><br>
+                <input type="date" name="date">
+            </div>
+            <br>
+            <div>
+                <input type="text" name="domicilio" placeholder="Domicilio">
+            </div>
+            <br>
+            <div>
+                <label>Tipo de Usuario:</label>
+                <br>
+                <label for="vendedor">Vendedor</label>
+                <input type="radio" value="vendedor" name="tipoUsuario" id="vendedor">
+                <label for="comprador">Comprador</label>
+                <input type="radio" value="comprador" name="tipoUsuario" id="comprador">
+            </div>
+            <br>
+            <div>
+            <br>
+                <label>Foto de ususario</label>
+                <input accept=".jpg" type="file" name="fotoUsuario" placeholder="Selecciona foto">
+            </div>
+            <br>
+            <div>
+                <input type="password" name="password" placeholder="Escribe contraseña">
+            </div>
+            <br>
+            <div>
+                <input type="password" name="rpassword" placeholder="Valida contraseña">
+            </div>
+            <br>
+            <div>
+                <button class="register" type="reset">Borrar</button>
+                <button class="register" type="submit">Enviar</button>
+            </div>
+            <br>
+        </form>
+    </main>
+    <footer>
+        <div>
+            <p><i class="fas fa-seedling"></i></p>
+
+        </div>
+        <div>
+            <p><i class="fas fa-carrot"></i></p>
+
+        </div>
+        <div>
+            <p><i class="fas fa-barcode"></i></p>
+
+        </div>
+        <br>
+        <p class="copy">Copyright ©</p>
+    </footer>
+</body>
+</html>
