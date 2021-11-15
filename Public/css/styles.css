@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 header{
     background-color: #664E4C;
 }
@@ -7,15 +10,15 @@ footer{
 body{
     background-color: #F0E2A3;;
 }
-ul{
-    list-style: none;
-    display: flex;
-}
-li a{
+#navbar li a{
     color: white;
     text-decoration: none;
     margin-left: 50px;
     font-size: 20px;
+}
+#navbar ul{
+    list-style: none;
+    display: flex;
 }
 .header{
     display:flex;
@@ -23,12 +26,45 @@ li a{
     margin: 10px;
     padding: 10px;
 }
+button{
+    margin-left: 50px;
+}
 #logo{
     border-radius: 30%;
+    width: 40%;
 }
+img{
+    width: 100%;
+}
+article{
+    border: 1px black solid;
+    padding: 20px;
+    box-sizing: border-box;
+}
+@media (min-width: 400px) {
+    .burger-menu{
+        display:none;
+    }
+    .frutasVerduras{
+        display:flex;
+        justify-content: space-around;
+    }
+    .photo{
+        width: 200px;
+        height: 200px;
+    }
 
+}
 @media (min-width: 720px) {
         .burger-menu{
             display:none;
+        }
+        .frutasVerduras{
+            display:flex;
+            justify-content: space-around;
+        }
+        .photo{
+            width: 200px;
+            height: 200px;
         }
     }
