@@ -31,7 +31,6 @@ button{
 }
 #logo{
     border-radius: 30%;
-    width: 40%;
 }
 img{
     width: 100%;
@@ -41,19 +40,15 @@ article{
     padding: 20px;
     box-sizing: border-box;
 }
-@media (min-width: 400px) {
-    .burger-menu{
-        display:none;
-    }
-    .frutasVerduras{
-        display:flex;
-        justify-content: space-around;
-    }
-    .photo{
-        width: 200px;
-        height: 200px;
-    }
-
+.input{
+    margin-left: 20px;
+    width:90%;
+    text-align: center;
+    height: 40px;;
+}
+.login{
+    width: 80%;
+    height: 30px;
 }
 @media (min-width: 720px) {
         .burger-menu{
