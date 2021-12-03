@@ -64,8 +64,7 @@ header .form{
     align-items: center;
     font-size: 9px;
 }
-main section article i,
-.{
+main section article i{
     color: #39b54a;
 }
 .head3{
