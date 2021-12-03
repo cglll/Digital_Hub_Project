@@ -58,7 +58,7 @@ main section article img{
 }
 .logo{
     width: 200px;
-} 
+}
 header .form{
     display: flex;
     align-items: center;
@@ -130,11 +130,12 @@ article div.info{
 }
 .fa-truck{
     color: #39b54a;
-    transition: transform ease-in .5s;
+    transition: translateX ease 5s;
 }
 .fa-truck:hover{
-    transform: rotate(-90deg);
+    transform: translateX(10px);
 }
+
 .info{
     border-top: 1px solid #ebebeb;
     padding: 15px;
