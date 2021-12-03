@@ -8,7 +8,11 @@ app.use(express.static(publicPath));
 
 const port = 3000
 
-app.listen(process.env.PORT || port, () => console.log(`Servidor corriendo en puerto ${port}`));
+app.set('view engine','ejs')
+
+app.get('/productCar',(req,res)=>{
+    res.render(path.resolve(__dirname, './views/productCar'))
+});
 
 app.get('/', (req, res) => {
     res.sendFile(path.resolve(__dirname, './views/index.html'));
@@ -19,3 +23,5 @@ app.get('/register', (req, res) => {
 app.get('/login', (req, res) => {
     res.sendFile(path.resolve(__dirname, './views/login.html'));
 });
+
+app.listen(process.env.PORT || port, () => console.log(`Servidor corriendo en puerto ${port}`));
