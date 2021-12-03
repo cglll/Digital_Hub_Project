@@ -9,6 +9,9 @@ const mainController = {
     },
     login: (req, res) => {
         res.sendFile(path.join(__dirname, '../views/login.html'));
+    },
+    productCar: (req,res) =>{
+        res.render(path.join(__dirname, '../views/productCar'))
     }
 };
 
