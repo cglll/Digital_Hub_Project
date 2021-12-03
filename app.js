@@ -16,3 +16,4 @@ app.set('view engine','ejs')
 
 app.listen(process.env.PORT || port, () => console.log(`Servidor corriendo en puerto ${port}`));
 
+app.set("view engine", "ejs")
