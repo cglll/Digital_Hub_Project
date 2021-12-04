@@ -1,36 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Productos Locales</title>
-        <link rel="stylesheet" href="/css/styles1.css">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
-        <title>Productos locales</title>
-    </head>
+    <%- include('./partials/head.ejs') %>
 <body>
-    <header>
-        <div class="header">
-            <div class="logo">
-                <img width=55%; src="/img/logo.png">
-            </div>
-            <div class="form">
-        </div>
-        <nav id="navbar">
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="">Nosotros</a></li>
-                <li><a href="">Soy productor</a></li>
-                <li><a href="">Quiero comprar</a></li>
-                <li><a href="">Contacto</a></li>
-                <li><a href="/register">Registrarme</a></li>
-                <li><a href="/login"><button class="log">Log in</button></a></li>
-            </ul>
-        </nav>
-        <div class="burger-menu">
-            <i class="fas fa-bars"></i>
-        </div><br>
-    </header>
+    <%- include ('./partials/header.ejs') %>
     <img width=100% height="200px" src="https://i.pinimg.com/originals/cf/a3/72/cfa3728cedde0decc1a9df988eaa4851.jpg">
     <main>
         <section>
@@ -118,32 +90,6 @@
     </main>
     <br>
     <br>
-    <footer>
-        <div id="footer">
-            <div>
-                <p><i class="fas fa-seedling"></i></p>
-                <h3>Productos Naturales</h3>
-                <p></p>
-                <p></p>
-                <p></p>
-            </div>
-            <div>
-                <p><i class="fas fa-carrot"></i></p>
-                <h3>Apoyando el comercio local</h3>
-                <p></p> 
-                <p></p>
-                <p></p>
-            </div>
-            <div>
-                <p><i class="fas fa-barcode"></i></p>
-                <h3>Precios Accesibles</h3>
-                <p></p> 
-                <p></p>
-                <p></p>
-            </div>
-        </div>
-        <br>
-        <p class="copy">Copyright © 2021 Productos Locales</p>
-    </footer>
+    <%- include ('./partials/footer.ejs') %>
 </body>
 </html>

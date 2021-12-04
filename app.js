@@ -12,8 +12,7 @@ app.use(express.static(publicPath));
 
 app.use('/', mainRouters);
 
-app.set('view engine','ejs')
+app.set('view engine','ejs');
+app.set('views', path.join(__dirname, 'views'));
 
 app.listen(process.env.PORT || port, () => console.log(`Servidor corriendo en puerto ${port}`));
-
-app.set("view engine", "ejs")
